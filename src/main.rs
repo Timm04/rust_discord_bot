@@ -1,17 +1,10 @@
 mod commands;
 
 use serenity::async_trait;
-// use serenity::model::application::command::Command;
 use serenity::model::application::interaction::{Interaction, InteractionResponseType};
 use serenity::model::gateway::Ready;
 use serenity::model::id::GuildId;
 use serenity::prelude::*;
-
-// use serenity::{
-//     async_trait,
-//     model::{channel::Message, gateway::Ready, command::Command, interaction::Interaction, interaction::InteractionResponseType, id::GuildId, prelude::interaction},
-//     prelude::*,
-// };
 
 struct Handler;
 
